@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect } from "react";
 import ProjectCard from "@/components/ProjectCard";
 import FadeInSection from "@/components/FadeInSection";
 
@@ -26,6 +29,10 @@ const projects = [
 ];
 
 export default function ProjectsPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <div className="px-4 md:px-6 py-16 md:py-32">

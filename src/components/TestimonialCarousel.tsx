@@ -13,21 +13,21 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    quote: "I had the pleasure of working with Yash on a recent project, and I was blown away by their creativity and attention to detail. I highly recommend Yash for anyone looking for a talented and professional designer.",
+    quote: "Yash's design aesthetic matched with Aston Martin F1's brand image. The AMF1 Engage app that the team made was an eye opener that challenged how we create mobile apps.",
     author: "Rob Bloom",
     role: "CMO of",
     company: "Aston Martin F1",
     image: "/rob_bloom.png"
   },
   {
-    quote: "Working with Yash was an exceptional experience. Their innovative approach and technical expertise brought our vision to life.",
+    quote: "Yash's innovative approach and technical expertise blended together to create a terrific product.",
     author: "Babak Hodjat",
     role: "CTO of",
     company: "Cognizant",
     image: "/babak.png"
   },
   {
-    quote: "Yash's ability to blend design and functionality is remarkable. They delivered beyond our expectations.",
+    quote: "Yash's ability to blend design and functionality is remarkable. The team delivered beyond our expectations.",
     author: "Santhish Muthukrishnan",
     role: "CIO of",
     company: "Ally Financial",
