@@ -1,4 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yash Rao Portfolio
+
+Personal portfolio website built with Next.js 14, TypeScript, and Tailwind CSS.
+
+## Tech Stack
+
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Vercel Hosting
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
+
+## Environment Variables
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```env
+NEXT_PUBLIC_GA_ID=
+NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=
+```
+
+## Deployment
+
+The site is automatically deployed to Vercel through GitHub integration.
 
 ## Getting Started
 
